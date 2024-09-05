@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: url(../image/bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+/* Main */
+
+
+/* Header */
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+    position: fixed;
+    top: 0;
+    bottom: 100%;
+    z-index: 999999;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+}
+.navbar h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(to top,#d5fe84, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar .menu li a {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Header End */
+
+/* Page 1 */
+
+/* btn color #d5fe84 */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 7rem;
+}
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2.3rem;
+}
+#home h1 {
+    font-size: 5.7rem;
+    font-weight: 700;
+    color: #d5fe84;
+    background: linear-gradient(to bottom,#d5fe84, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#home p {
+    font-size: 20px;
+    color: #a5a5a5;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    max-width: 800px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#home .signup-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#home .signup-input .email {
+    width: 550px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid #d5fe84;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 35px;
+    position: relative;
+}
+#home .signup-input .email::placeholder {
+    font-size: 16px;
+    color: #fff;
+}
+#home .signup-input .btn {
+    background: #d5fe84;
+    font-size: 18px;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 50px;
+    margin-left: -122px;
+
+}
