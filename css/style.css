@@ -123,3 +123,78 @@ html, body {
     margin-left: -122px;
 
 }
+
+/* About Section */
+
+#about {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+#about .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+
+}
+#about .left h5 {
+
+    background-color: #171e29;
+    color: #d5fe84;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 50px;
+}
+
+#about .left h2 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    color: #fff;
+    font-weight: 600;
+}
+#about .left p {
+    font-size: 20px;
+    color: #a5a5a5;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    max-width: 800px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+#about .left .btn {
+    background: #d5fe84;
+    font-size: 18px;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 50px;
+}
+
+#about .left .btn .arrow {
+    font-size: 20px;
+}
+
+
+
+
+#about .right {
+    width: 50%;
+    position: relative;
+}
+
+#about .right .img-col {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+#about .right .img-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
